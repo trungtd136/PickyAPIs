@@ -1,0 +1,11 @@
+<%= form_for @profile do |f| %>
+
+	<%= f.error_messages %>
+	<%= f.hidden_field :profile_id %>
+
+	<p>
+		<%= f.label :name %> <br />
+		<%= f.label :email %> <br />
+	</p>
+
+<% end %>

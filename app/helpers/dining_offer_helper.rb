@@ -1,0 +1,2 @@
+module DiningOfferHelper
+end
